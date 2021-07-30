@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>To-Do LIST</title>
-	<link rel='stylesheet' href='main.css' />
-	<script src='main.js' defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Loaded the Script. -->
+     <script src="script.js" defer></script> 
 </head>
-
 <body>
-	<div>
-		<h1>TO DO LIST</h1>
-		<ul class='todo-list'>
-			<li class='todo-item'>Butter, Unsalted
-				<span class='remove'></span></li>
-			<li class='todo-item'>Dozen Eggs
-				<span class='remove'></span></li>
-			<li class='todo-item'>Chick Peas
-				<span class='remove'></span></li>
-			<li class='todo-item'>Sugar
-				<span class='remove'></span></li>
-			<li class='todo-item'>Laundry Soap
-				<span class='remove'></span></li>
-		</ul>
-		<p class='todo-new'>
-			<input id='new-item-text' type='text' />
-			<a id='add-item' href='#'>+</a>
-		</p>
-	</div>
+    <h1>JavaScript To-Do List</h1>
+    <div class="form-input">
+        <input type="text" id="new-section" placeholder="Create Title" />
+        <button id="add-user">Create Section</button>
+    </div>
+    <!-- EXAMPLE -->
+    <div class="section" id="section-shopping">
+        <h3>Shopping</h3>
+        <ul>
+            <li>Clothes</li>
+            <li>Groceries</li>
+        </ul>
+        <input type="text" id="new-item" placeholder="Add new item" />
+        <button class="list-button">Add New Item</button>
+    </div>
 </body>
-
 </html>
