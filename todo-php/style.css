@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color:white;
+}
+.btn{
+    box-shadow: 2px 2px  4px rgb(88, 94, 88);
+}
+.btn:active{
+    box-shadow: none;
+}
+th{
+    color:white;
+}
+form {
+	margin-top: 91px;
+    margin-left: 281px;
+}
